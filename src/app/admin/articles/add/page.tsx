@@ -343,10 +343,10 @@ export default function ArticleAdmin() {
                             </div>
                             <div className="flex justify-end my-14 px-6 gap-2">
                                 <Button variant={'ghost'} className="border-[1px]">Cancel</Button>
-                                <Button disabled={!content || !category || !title || !image || loading} variant={'secondary'} onClick={() => setShowPreview(true)}>Preview</Button>
+                                <Button disabled={!content || !category || !title || !image || !loading} variant={'secondary'} onClick={() => setShowPreview(true)}>Preview</Button>
                                 <Button
                                     onClick={handleAdd}
-                                    disabled={!content || !category || !title || !image || loading} variant={'primary'}>Upload</Button>
+                                    disabled={!content || !category || !title || !image || !loading} variant={'primary'}>Upload</Button>
                             </div>
                         </div>
                     </div>
