@@ -27,7 +27,7 @@ Article App adalah platform manajemen artikel yang mendukung dua jenis peran pen
    ```
 1. change dir
    ```sh
-   cd DaTours
+   cd article-app
    ```
 2. Install NPM packages
    ```sh
